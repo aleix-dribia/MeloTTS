@@ -1,7 +1,7 @@
 import torch
 import os
 from . import utils
-from cached_path import cached_path
+# from cached_path import cached_path
 from huggingface_hub import hf_hub_download
 
 DOWNLOAD_CKPT_URLS = {
